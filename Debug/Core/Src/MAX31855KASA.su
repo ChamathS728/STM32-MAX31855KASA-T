@@ -1,0 +1,2 @@
+../Core/Src/MAX31855KASA.c:9:12:MAXthermo_init	24	static
+../Core/Src/MAX31855KASA.c:27:19:MAXthermo_readTemperature	24	static
