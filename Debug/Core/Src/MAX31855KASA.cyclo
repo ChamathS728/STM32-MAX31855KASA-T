@@ -1,2 +1,0 @@
-../Core/Src/MAX31855KASA.c:9:12:MAXthermo_init	1
-../Core/Src/MAX31855KASA.c:27:19:MAXthermo_readTemperature	1
