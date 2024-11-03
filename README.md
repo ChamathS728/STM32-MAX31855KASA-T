@@ -29,6 +29,8 @@ An SPI bus should be configured to be running at a bit rate slower than 5MHz. It
 The CS pin was done as a GPIO output, which gets used in the MAX31855KASA.c file.
 
 ### Using in code
+Within the `MAX31855KASA.c` file, the `#include` line should have the include for whichever STM32-based MCU the device is connected to. In this case, the code was written for an STM32G431KB chip, hence it has `#include "stm32g4xx_hal.h"`
+
 Include the header file with `#include "MAX31855KASA.h"`. It is recommended to also drive the CS pin connected to the IC before the main loop to enabled the serial interface.
 
 Define a thermocouple struct instance. An example is done below
